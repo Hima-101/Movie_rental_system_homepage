@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+ 
+body{
+background: #000;
+
+}
+
+.logo img{
+   position: relative;
+   top: 0;
+   left: 0;
+    max-width: 300px;
+}
+.logo img:hover{
+    transform: scale(1.09);
+    transition: 3s;
+}
+.list h2{
+    color: white;
+    text-transform: uppercase;
+    background-color: dimgrey;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+
+
+.list a img{
+    position: relative;
+    margin-right: 30px;
+    display: inline;
+    align-items: center;
+    padding: 8px;
+    
+    max-height: 200px;
+    max-width: 100%;
+
+    
+}
+.list a img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+
+}
+
+.banner h4{
+    color: white;
+}

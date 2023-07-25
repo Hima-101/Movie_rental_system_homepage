@@ -1,0 +1,7 @@
+body{
+   background-color: black; 
+}
+
+.movie video{
+    max-width: 100%;
+}
